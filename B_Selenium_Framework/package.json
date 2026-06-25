@@ -1,0 +1,25 @@
+{
+  "name": "selenium_framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:chrome": "cross-env BROWSER=chrome npm test",
+    "test:firefox": "cross-env BROWSER=firefox npm test"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.20",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^20.19.43",
+    "@types/selenium-webdriver": "^4.35.6",
+    "chai": "^4.5.0",
+    "cross-env": "^7.0.3",
+    "mocha": "^10.8.2",
+    "mochawesome": "^7.1.4",
+    "mochawesome-report-generator": "^6.3.2",
+    "selenium-webdriver": "^4.45.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
